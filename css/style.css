@@ -7,23 +7,41 @@ body {
 }
 
 #nav {
-    width:750px;
+    width:100%;
     margin:0 auto;
+    margin-top: 100px;
     list-style:none;
     }
     #nav li {
     float:left;
+    width: 33%;
     }
     #nav a {
     display:block;
+    background-color: white;
     text-align:center;
-    width:150px; /* fixed width */
+    justify-content: center;
+    width:100%; /* fixed width */
+    height: 70px;
+    border-color: rgb(3, 0, 2);
+    border-style: solid;
     text-decoration:none; 
  
     
 }
 section {
     clear: both;
+}
+
+footer {
+  color: black;
+  background-color: whitesmoke;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .registro-box {
@@ -33,10 +51,11 @@ section {
     color:blanchedalmond;
     top: 50%;
     left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    /*position: absolute;*/
+    /*transform: translate(-50%, -50%);*/
+    margin-top: 200px;
     box-sizing: border-box;
-    padding:70px;30px;
+    padding:70px;
     border-radius: 10%;
 }
 
@@ -45,7 +64,7 @@ section {
     width: 100px;
     height: 100px;
     border-radius: 25%;
-    position:absolute; 
+    position:relative; 
     top:-50px;
     left: calc(50% - 50px); 
 
@@ -96,5 +115,9 @@ section {
 
 .registro-box a:hover  { 
  color:aliceblue;
+}
+
+form label, input{
+  display: block;
 }
             
