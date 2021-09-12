@@ -3,7 +3,7 @@ body {
  background-size: cover;
  width:750px;
  margin:0 auto;
- font-family:'Segoe UI';
+ font-family:'Segoe UI', Arial, sans-serif;
 }
 
 #nav {
@@ -25,9 +25,9 @@ body {
     height: 70px;
     border-color: rgb(3, 0, 2);
     border-style: solid;
-    text-decoration:none; 
- 
-    
+    text-decoration:none;
+
+
 }
 section {
     clear: both;
@@ -45,7 +45,7 @@ footer {
 }
 
 .registro-box {
-    width:320 px;   
+    width:320 px;
     height:420 px;
     background-color:rgb(177, 166, 166);
     color:blanchedalmond;
@@ -64,9 +64,9 @@ footer {
     width: 100px;
     height: 100px;
     border-radius: 25%;
-    position:relative; 
+    position:relative;
     top:-50px;
-    left: calc(50% - 50px); 
+    left: calc(50% - 50px);
 
 
 }
@@ -80,18 +80,21 @@ footer {
 .registro-box label {
   margin: 0;
   padding: 0;
-  font-weight: bold;    
+  font-weight: bold;
   display: block;
   font-size: 20px;
 }
 .registro-box input {
   width: 100%;
-  margin-bottom: 12px;  
+  margin-bottom: 12px;
   color:darkmagenta;
 }
 
 .registro-box input[type="text"],
-.registro-box input[type="password"]  { 
+.registro-box input[type="password"],
+.registro-box input[type="email"],
+.registro-box input[type="date"]
+  {
   border: nome;
  background-color:cornsilk;
   outline: nome;
@@ -100,24 +103,23 @@ footer {
   font-size: 17px;
 }
 
-.registro-box input[type="submit"]  { 
+.registro-box input[type="submit"]  {
  height: 45px;
  font-size: 18px;
  background-color:blanchedalmond;
  border-radius: 20px;
 }
-.registro-box a  { 
+.registro-box a  {
  text-decoration: none;
- font-size: 18px; 
+ font-size: 18px;
  line-height: 20px;
  color:crimson;
 }
 
-.registro-box a:hover  { 
+.registro-box a:hover  {
  color:aliceblue;
 }
 
 form label, input{
   display: block;
 }
-            
