@@ -1,9 +1,24 @@
+
 body {
- background: url(../img/fondo_inicio.png) ;
+ background: url(../img/fondo_inicio.png);
  background-size: cover;
  width:750px;
  margin:0 auto;
  font-family:'Segoe UI', Arial, sans-serif;
+}
+.box-principal{
+  background-color: #D79771 ;
+  padding: 8rem;
+  border-radius: 5%;
+}
+.box-principal h1, h2{
+  text-align: center;
+}
+.small{
+  text-align: justify;
+}
+#clear {
+  clear: both;
 }
 
 #nav {
@@ -14,34 +29,31 @@ body {
     }
     #nav li {
     float:left;
-    width: 33%;
+    width: 30%;
     }
     #nav a {
     display:block;
-    background-color: white;
     text-align:center;
-    justify-content: center;
     width:100%; /* fixed width */
     height: 70px;
-    border-color: rgb(3, 0, 2);
-    border-style: solid;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
     text-decoration:none;
-
-
-}
-section {
-    clear: both;
 }
 
 footer {
   color: black;
-  background-color: whitesmoke;
+  background-color: #D79771;
   padding-top: 3em;
   position: relative;
   bottom: 0;
   width: 100%;
   margin-bottom: 30px;
+  margin-top: 30px;
   text-align: center;
+  padding: 2px;
+  border-radius: 5%;
 }
 
 .registro-box {
